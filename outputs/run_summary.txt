@@ -1,0 +1,25 @@
+EN3160 Assignment 2 outputs
+==========================
+
+Question 1: LoG scale extrema
+sigma range: 1.0 to 9.7 pixels (step 0.3 pixels)
+Largest detected blobs (coordinates are in the reduced image):
+1. (x=144, y=326), sigma=9.40, radius=13.29px, response=0.666
+2. (x=262, y=307), sigma=8.80, radius=12.45px, response=0.526
+3. (x=278, y=232), sigma=8.20, radius=11.60px, response=0.550
+4. (x=282, y=338), sigma=7.30, radius=10.32px, response=1.388
+5. (x=72, y=323), sigma=7.30, radius=10.32px, response=0.275
+6. (x=243, y=319), sigma=7.30, radius=10.32px, response=0.273
+7. (x=333, y=348), sigma=7.00, radius=9.90px, response=0.375
+8. (x=225, y=331), sigma=6.70, radius=9.48px, response=0.414
+
+Question 2: RANSAC
+Line inliers: 54; fitted (a,b,d)=(0.7167, 0.6974, 1.5029)
+Circle inliers: 44; fitted centre=(1.9512, 3.0461), radius=9.8732
+
+Question 4: SIFT/RANSAC metrics
+AAAA1.jpg: good matches=183, inliers=29, inlier ratio=0.158, mean board abs difference=26.71
+ADAD1.jpg: good matches=263, inliers=53, inlier ratio=0.202, mean board abs difference=45.88
+AECC2.jpg: good matches=1062, inliers=905, inlier ratio=0.852, mean board abs difference=4.59
+AECC3.jpg: good matches=1287, inliers=1130, inlier ratio=0.878, mean board abs difference=3.96
+AECC4.jpg: good matches=910, inliers=778, inlier ratio=0.855, mean board abs difference=4.97

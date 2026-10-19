@@ -1,0 +1,48 @@
+{
+  "line": {
+    "sample_indices_zero_based": [
+      56,
+      91
+    ],
+    "sample_model_a_b_d": [
+      0.7090596031624623,
+      0.7051485511316687,
+      1.464350060112091
+    ],
+    "best_fit_a": 0.716669672282949,
+    "best_fit_b": 0.6974127765031629,
+    "best_fit_d": 1.502896583313847,
+    "constraint_a2_plus_b2": 1.0000000000000002,
+    "inliers": 54,
+    "threshold": 1.4
+  },
+  "circle": {
+    "sample_indices_zero_based_in_remaining_set": [
+      3,
+      13,
+      41
+    ],
+    "sample_indices_zero_based_in_full_set": [
+      3,
+      15,
+      45
+    ],
+    "sample_model_x_y_r": [
+      2.2777876348502426,
+      2.9496846923872138,
+      9.979806830820774
+    ],
+    "best_fit_x": 1.9512403196263712,
+    "best_fit_y": 3.0461359298365616,
+    "best_fit_r": 9.873199070762244,
+    "inliers": 44,
+    "threshold": 1.2
+  },
+  "ground_truth": {
+    "line_slope": -1.0,
+    "line_intercept": 2.0,
+    "circle_x": 2.0,
+    "circle_y": 3.0,
+    "circle_r": 10.0
+  }
+}
